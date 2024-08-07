@@ -25,7 +25,7 @@ Ensure you have the following installed:
 
    ```bash
    python create_dataset.py --input_data path_to_data --output_dir path_to_output
-  ```
+  ``
 
 2. **Extend Tokenizer**
 
@@ -35,6 +35,7 @@ Ensure you have the following installed:
   ```bash
 python extend_tokenizer.py --tokenizer_path path_to_tokenizer --data_path path_to_extended_tokens
 ```
+
 3. **Model Training**
 
 Once the dataset is ready and the tokenizer is extended, you can proceed to train the model using a pretrained checkpoint of the T5-small model. This is done using the train.py script.
