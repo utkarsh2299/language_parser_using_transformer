@@ -25,7 +25,6 @@ Ensure you have the following installed:
 
    ```bash
    python create_dataset.py --input_data path_to_data --output_dir path_to_output
-  ``
 
 2. **Extend Tokenizer**
 
