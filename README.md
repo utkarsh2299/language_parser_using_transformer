@@ -26,7 +26,8 @@ Ensure you have the following installed:
    ```bash
    python create_dataset.py --input_data path_to_data --output_dir path_to_output
   ```
-2. **Extend Tokenizer**
+
+ 2. **Extend Tokenizer**
 
 
    To handle new UTF-8 tokens (including non-English characters), the tokenizer needs to be extended. This is done using the extend_tokenizer.py script.
@@ -50,7 +51,7 @@ python inference_using_checkpoint.py --model_checkpoint path_to_trained_model --
 5. **Directory Structure**
 
    ```bash
-   ├── create_dataset.py
+   ├── create_dataset.py\\
 ├── extend_tokenizer.py
 ├── train.py
 ├── inference_using_checkpoint.py
