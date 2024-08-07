@@ -24,7 +24,7 @@ Ensure you have the following installed:
    The dataset is prepared using the `create_dataset.py` script. This script shuffles and divides the data into training and validation sets.
 
    ```bash
-   python create_dataset.py --input_data path_to_data --output_dir path_to_output
+   python create_dataset.py --input_data path_to_data/csv file
 
 2. **Extend Tokenizer**
 
@@ -32,20 +32,24 @@ Ensure you have the following installed:
    To handle new UTF-8 tokens (including non-English characters), the tokenizer needs to be extended. This is done using the extend_tokenizer.py script.
 
   ```bash
-python extend_tokenizer.py --tokenizer_path path_to_tokenizer --data_path path_to_extended_tokens
+python extend_tokenizer.py 
 ```
 
 3. **Model Training**
 
 Once the dataset is ready and the tokenizer is extended, you can proceed to train the model using a pretrained checkpoint of the T5-small model. This is done using the train.py script.
   ```bash
-python train.py --train_data path_to_train_data --val_data path_to_val_data --model_checkpoint t5-small --output_dir path_to_trained_model
+python train.py 
 
 ```
 4. **Inference**
 
 After training, the model can be used for inference on new words. Use the inference_using_checkpoint.py script to perform inference.
 ```bash
-python inference_using_checkpoint.py --model_checkpoint path_to_trained_model --input_data path_to_new_words --output_file path_to_results
+python inference_using_checkpoint.py --model_checkpoint path_to_trained_model 
 ```
+5. **Contributions**
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+Feel free to reach out with any questions or suggestions. Happy training!
 
