@@ -4,7 +4,10 @@ A langauge parser using Text-To-Text Transfer Transformer (T5) is a pre-trained 
 
 ## Project Overview
 
-This project is an experiment aimed at training a Machine Learning (ML) model to accurately parse new words into their phonetic representations. The model is trained using a curated and verified dataset of words and their corresponding phonetic outputs. Over time, the model learns to generalize and correctly represent new words in a phonetic format.
+This project is an experiment aimed at training a Machine Learning (ML) model to accurately parse new words into their phonetic representations. The model is trained using a curated and verified dataset of words and their corresponding phonetic outputs. Over time, the model learns to generalize and correctly represent new words in a phonetic format. Example:
+यूट्यूब : y U ट y U b
+ब्लास्ट : b l A s ट
+अट्टालिका : a ट ट A l i k A
 
 ## Getting Started
 
